@@ -1,0 +1,67 @@
+
+  #form{
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);	
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+div.col-xs-12.col-sm-12.col-lg-4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:#FF0000;
+    font-weight: bold;
+ 
+}
+
+#image1{
+    width:100%;
+    height:200px;
+}
+#p1{
+    font-size:20px;
+    
+}
+h2,h4,h5{
+    color:#FFFF00;
+    background-color:#FF3300	;
+    border-radius:5px;
+}
+h1{
+    text-transform:uppercase;
+}
+#p0{
+    color:red;
+    font-family: Arial Black ;
+}
+#booking{
+    
+    text-align:justify;
+    font-family: Arial Black ;
+    color:#FFFFFF;
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    border-radius: 10px;	
+
+
+}
+hr{
+    background:red;
+    width:100%;
+}
+#hr1{
+    background:orange;
+    width:100%;
+    height:3px;
+}
+
+#left{
+    text-align:left;
+    font-size:17px;
+    color:#111;
+   
+}

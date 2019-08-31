@@ -1,0 +1,226 @@
+#form{
+    width: 100%;
+    height: 120px;
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);	 */
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border-radius: 30px;
+    text-align: center;
+    
+}
+/* input{
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    border-radius: 10px;
+
+} */
+div.col-xs-12.col-sm-12.col-lg-4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+ 
+}
+/* div.col-xs-12.col-sm-12.col-lg-8{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;  
+} */
+#image1{
+    width:100%;
+    height:200px;
+}
+#p1{
+    font-size:20px;
+    
+}
+h2,h4,h5{
+    color:#FFFF00;
+    background-color:#FF3300	;
+    border-radius:5px;
+}
+#p0{
+    color:red;
+    font-family: Arial Black ;
+}
+#booking{
+    /* font-size:20px; */
+    text-align:justify;
+    font-family: Arial Black ;
+    color:#FFFFFF;
+    width: 120px;
+    height: 30px;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    border-radius: 10px;	
+
+
+}
+hr{
+    background:red;
+    width:100%;
+}
+#hr1{
+    background:orange;
+    width:100%;
+    height:3px;
+}
+span{
+    color:red;
+    font-size:15px;
+    text-align:left;
+}
+div div a#left{
+    font-size:15px;
+    text-align:left;
+
+}
+
+
+
+
+
+/* The Modal (background) */
+form#vform .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 80%; /* Full width */
+    height: 80%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+  }
+  /* Modal Content */
+  form#vform .modal-content {
+    /* position: relative; */
+    background-color:rgba(102, 111, 163, 0.548);
+    margin: auto;
+    padding: 0;
+    /* border: 1px solid #888; */
+    width: 65%;
+    height: 80%;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); */
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+    background: url('https://vietnamtravel.biz.vn/assets/desktop/images/event/bg-body.jpg');
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  form#vform .close {
+    color: #111;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left:1000px;  
+  }
+  
+  form#vform .close:hover,
+  form#vform .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  } */
+  
+  /* .modal-body {padding: 2px 16px;} */
+  
+  /* .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  } */
+  form#vform #hr{
+    border-right: 3px solid #555;
+    height: 30%;
+   
+  }
+  form#vform textarea{
+    width: 200px;
+    /* margin-bottom: 200px; */
+  }
+  form#vform div#left input{
+    width: 200px;
+  
+  }
+  form#vform label{
+    font-size: 15px;
+    color: blue;
+  }
+  form#vform input[type=submit]{
+    height: 40px;
+    width: 300px;
+    border-radius:2rem;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color: #fff;
+    border: none;
+    transition: 200ms;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .3);
+    outline: none;
+    margin:70px 0 0 60px;
+  
+  }
+  /* input[type=checkbox]{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+  } */
+  form#vform div#right p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+  }
+  form#vform #card, #cash{
+    font-size: 30px;
+    
+  }
+  form#vform img{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  form#vform div#right b{
+    margin: 0 0 0 60px;
+  }
+  form#vform input[type=checkbox]{
+    margin: 0 0 0 70px; 
+  }
+  form#vform input[type=date]{
+    width: 200px;
+  }
+  form#vform span{
+    font-size: 12px;
+   
+  }
+  .error{
+    display:inline-block;
+    color: red;
+    font-size: 13px;
+  }
+  form#vform #cash{
+    margin-left: 110px;
+  }
+  
+  

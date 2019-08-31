@@ -1,0 +1,18 @@
+form#vform select{
+    width: 200px;
+    height: 30px;
+    
+    margin: 10px;
+}
+form#vform form.form-container input, select{
+    margin-left: 44px;
+}
+form#vform div form.form-container input#dep{
+    margin-left: 5px;
+}
+form#vform div#myForm{
+    display: none;
+    margin-left: 75px;
+    /* margin-right: auto; */
+    
+}
