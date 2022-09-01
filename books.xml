@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <books name=“mynote”>
+         <book>
+               <title>Sống mòn</title>
+               <author>Nam Cao</author>
+               <category>Tiểu thuyết</category>
+         </book>
+         <book>
+              <title>Ba người bạn</title>
+              <author>Nam Cao</author>
+             <category>Truyện ngắn</category>
+         </book>
+</books>
